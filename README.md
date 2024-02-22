@@ -1,5 +1,7 @@
 My discord is scouter407.
 
+I would suggest downloading the RVMat I have provided as a good example of what to do for textures, feel free to use it as a base.
+
 CO Map:
 
 Base color, darken or lighten stuff depending on how it looks in game, because some colors just don't look good the way Arma lighting is set up, unsure how to fix this yet.
