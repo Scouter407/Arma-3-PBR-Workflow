@@ -1,6 +1,6 @@
 My discord is scouter407.
 
-I would suggest downloading the RVMat I have provided as a good example of what to do for textures, feel free to use it as a base.
+Remember, the lighting will never be perfect in Arma because of the wide variety of lighting scenarios, if it looks good in default clear sky Stratis lighting, then it should in theory look good everywhere else. I would suggest downloading the RVMat I have provided as a good example of what to do for textures, feel free to use it as a base.
 
 CO Map:
 
