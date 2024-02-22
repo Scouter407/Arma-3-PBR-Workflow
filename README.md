@@ -30,3 +30,7 @@ Green is glossiness. White is shiny, black is dull. This applies under the metal
 
 NOHQ Map:
 Normal map, DirectX format, nothing complex or weird here. Avoid using extreme values for your normal or height mapping, as it can cause pixilation in the texture when you look at in game and very strange lighting.
+
+![Screenshot](substancepainter.png)
+
+![Screenshot](arma3.png)
