@@ -26,7 +26,7 @@ To explain this, the specular is set at 0.25 as to not cause too much blown out 
 
 Now, let's say you have a metal and a non-metal on the same RVMat, you might ask how do I get the non-metal to have shine but not be as shiny as the metal. This is where you have to go against PBR texturing, and slightly increase the metallic value of the non-metal part. It will give it the shine, but not as much shine as the metal part has.
  
-Green is glossiness. White is extremely shiny, black is dull. This applies under the metallic mask on the blue channel, so make sure whatever you want to be shiny also has a metallic value.
+Green is glossiness. White is shiny, black is dull. This applies under the metallic mask on the blue channel, so make sure whatever you want to be shiny also has a metallic value brighter than black.
 
 NOHQ Map:
 Normal map, DirectX format, nothing complex or weird here. Avoid using extreme values for your normal or height mapping, as it can cause pixilation in the texture when you look at in game and very strange lighting.
