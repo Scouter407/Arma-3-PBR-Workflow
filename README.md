@@ -31,6 +31,11 @@ Green is glossiness. White is shiny, black is dull. This applies under the metal
 NOHQ Map:
 Normal map, DirectX format, nothing complex or weird here. Avoid using extreme values for your normal or height mapping, as it can cause pixilation in the texture when you look at in game and very strange lighting.
 
+Substance Painter
 ![Screenshot](substancepainter.png)
 
+Arma 3 - Buldozer
 ![Screenshot](arma3.png)
+
+Final Notes: 
+I am aware that my texture conversion as shown above might not be perfect, but it gets you pretty close and with some more fine tuning of the RVMat it will get it as close as possible with consideration of the outdated lighting engine in Arma 3. With the thanks to all the other modders who discussed this with me and helped me learn more, I hope you find use out of this guide and learned something new today. The lighting will never be perfect in Arma because of the wide variety of lighting scenarios, but if it looks good in default clear sky Stratis lighting, then it should in theory look good everywhere else. I would suggest downloading the RVMat I have provided as a good example of what to do for textures, feel free to use it as a base. If you have any specific questions, my Discord is scouter407.
