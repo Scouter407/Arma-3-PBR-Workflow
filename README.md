@@ -19,6 +19,10 @@ Normal map, DirectX format, nothing complex or weird here. Avoid using extreme v
 ## Emissive Map:
 You paint where you want things to glow that color, this is coming soon and you have to use TexGens + SuperExt shader and slot it into Stage8. Not technically fully working yet but I'll add the export, more info is found here in the [ARMA discord](https://discord.com/channels/105462288051380224/105781923573456896/1438178556294332576)  
 
+## New SMDI Generator Usage
+<img width="403" height="908" alt="image" src="https://github.com/user-attachments/assets/be8c3e71-2981-4e05-a250-26568d3230f2" />
+
+
 ## Example
 Substance Painter
 ![Screenshot](substancepainter.png)
