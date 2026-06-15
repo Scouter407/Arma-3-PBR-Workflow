@@ -11,23 +11,7 @@ Base color, same idea as above but this texture map has an opacity channel in th
 Ambient Occlusion/Shadows, follows the same idea as modern Ambient Occlusion maps, but the red channel is full white, the green channel is the ambient occlusion, and the blue channel is white.
 
 ## SMDI Map:
-
-### Red Channel
-Red channel is pure white, it's unused. 
-
-### Green Channel
-Green is metallic. Metallic channels determine the actual material properties, so a full white texture will be all metal, whereas a full black texture will be all non-metal. The look of the metallic is heavily determined by the RVMat settings, but some good ones to start with for a shiny metal are as follows:
-```
-specular[] = {0.25,0.25,0.25,1};
-specularPower = 80;
-```
-
-To explain this, the specular is set at 0.25 as to not cause too much blown out colors with absurd levels of shine, but instead, to make it more metallic, the specular power is higher causing a tighter and more coherent surface reflection. The next important settings are the Fresnel material properties, which also influences the look of the metal. Follow the guide on the Arma 3 Super Shader [wiki](https://community.bistudio.com/wiki/Super_shader#6._Fresnel_function) for the numbers to use, they are based on real life measurements and you should tweak them from there by small increments until you get what you like, but they are a good start.
-
-Now, let's say you have a metal and a non-metal on the same RVMat, you might ask how do I get the non-metal to have shine but not be as shiny as the metal. This is where you have to go against PBR texturing, and slightly **__decrease__** the metallic value of the non-metal part. It will give it the shine, but not as much shine as the metal part has.
-
-### Blue Channel
-Blue is glossiness. White is shiny, black is dull. This applies under the metallic mask on the blue channel, so make sure whatever you want to be shiny also has a metallic value brighter than black.
+It's now completely automated, but long story short I combined and blended Roughness and Glossiness until it matched the base game colors and levels. Please let me know how things look with this new workflow.
 
 ## NOHQ Map:
 Normal map, DirectX format, nothing complex or weird here. Avoid using extreme values for your normal or height mapping, as it can cause pixilation in the texture when you look at in game and very strange lighting.
