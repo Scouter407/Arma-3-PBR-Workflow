@@ -16,7 +16,7 @@ It's now completely automated, but long story short I combined and blended Rough
 ## NOHQ Map:
 Normal map, DirectX format, nothing complex or weird here. Avoid using extreme values for your normal or height mapping, as it can cause pixilation in the texture when you look at in game and very strange lighting.
 
-## Glow Map:
+## Emissive Map:
 You paint where you want things to glow that color, this is coming soon and you have to use TexGens + SuperExt shader and slot it into Stage8. Not technically fully working yet but I'll add the export, more info is found here in the [ARMA discord](https://discord.com/channels/105462288051380224/105781923573456896/1438178556294332576)  
 
 ## Example
